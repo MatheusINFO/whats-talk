@@ -14,8 +14,8 @@
         </p>
 
 <p align="center">
-          <a href="#whats-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-          <a href="#whats-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;
+          <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <a href="#como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;
         </p>
 
 
@@ -25,7 +25,7 @@
 
 <p align="center">https://builderburger.netlify.app/</p>
 
-## :whats: Tecnologias
+## Tecnologias
 
 Esse projeto foi desenvolvido com acompanhamento de [React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_428734577250_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_1031803_._pd__._&matchtype=b&gclid=CjwKCAjw4871BRAjEiwAbxXi2zALAOzzVEo2qOXBgbcI9dodjTOgzQdyl2L_Q5jLauBBI721wrx_xxoC0J0QAvD_BwE) com as seguintes tecnologias:
 
@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com acompanhamento de [React - The Complete Guide 
         -  [ReactHooks](https://github.com/rehooks/awesome-react-hooks)
         -  [styled-components](https://www.styled-components.com/)
 
-## :whats: Como usar
+## Como usar
 
 ```bash
 # Clonar o repositório
