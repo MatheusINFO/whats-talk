@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 import Logo from '../../assets/WhatsTalk.png';
-import {Container,WrapperItems, Input, TextArea, Button} from './styles';
+import {Container,WrapperItems, Input, TextArea, TextLink} from './styles';
 
 const Main = () => {
      const [inputNumberValue, setInputNumberValue] = useState('');
@@ -24,6 +24,8 @@ const Main = () => {
         <Container>
             <img src={Logo} alt="WhatsTalk"/>
 
+            <p>Envie mensagem para quem quiser, sem adiciona-lo nos seus contatos!</p>
+
             <WrapperItems>
                 <Input
                     type="text"
@@ -44,9 +46,12 @@ const Main = () => {
                 }}
             />
 
-            <Button onClick={handleSubmit}>
-                <a href={linkValue} target="_blank" rel="noopener noreferrer">Gerar</a>
-            </Button>
+            <TextLink href={linkValue} target="_blank" rel="noopener noreferrer">
+                <button onClick={handleSubmit}>
+                    Gerar
+                </button>
+            </TextLink>
+            
       </Container>
     )
 }

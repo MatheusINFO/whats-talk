@@ -8,6 +8,11 @@ export const Container = styled.div`
     align-items: center;
     width: 100%;
     height: 100%;
+
+    p{
+        color: rgb(119, 114, 114);
+        font-size: 17px;
+    }
 `;
 
 export const WrapperItems = styled.div`
@@ -56,18 +61,18 @@ export const TextArea = styled.textarea`
     }
 `;
 
-export const Button = styled.button`
-    background: #25d366;
-    margin-top: 40px;
-    height: 40px;
-    width: 120px;
-    border: 0;
-    border-radius: 4px;
-    
-    a{
-        text-decoration: none;
+export const TextLink = styled.a`
+    text-decoration: none;
+  
+    button{
+        background: #25d366;
+        color: #fff;
+        margin-top: 40px;
+        height: 40px;
+        width: 120px;
+        border: 0;
+        border-radius: 4px;
         font-weight: bold;
         font-size: 17px;
-        color: white;
     }
 `;
