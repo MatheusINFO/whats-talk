@@ -23,7 +23,7 @@
             Demo do app no netlify
         </h3>
 
-<p align="center">https://builderburger.netlify.app/</p>
+<p align="center">https://whatstalk.netlify.app/</p>
 
 ## Tecnologias
 
