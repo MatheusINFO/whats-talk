@@ -10,7 +10,7 @@ const Form = (props) => {
             <WrapperItems>
                 <Input
                     type="text"
-                    placeholder="+55 (99) 9 9999-9999"
+                    placeholder="(99) 9 9999-9999"
                     onChange={props.inputNumber}
                 />
 
