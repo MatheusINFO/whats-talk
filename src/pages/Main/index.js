@@ -14,8 +14,8 @@ const Main = () => {
         const numberFilter = numberPhone.replace(/[^\d]+/g, '');
 
         const link = (inputTextValue ? 
-            'https://web.whatsapp.com/send?phone=' + numberFilter + '&text=' + inputTextValue :
-            'https://web.whatsapp.com/send?phone=' + numberFilter
+            'https://web.whatsapp.com/send?phone=55' + numberFilter + '&text=' + inputTextValue :
+            'https://web.whatsapp.com/send?phone=55' + numberFilter
         );
 
         setLinkValue(link);
