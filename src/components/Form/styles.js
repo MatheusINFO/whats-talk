@@ -28,7 +28,7 @@ export const WrapperItems = styled.div`
         }
 
         ::after{
-            content: 'Código do país, DDD e número de telefone com o 9 a mais.';
+            content: 'Digite apenas seu DDD e número de telefone com o 9 a mais no inicio.';
             visibility: hidden;
             position: absolute;
             margin-left: 5px;
