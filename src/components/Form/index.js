@@ -12,7 +12,7 @@ const Form = (props) => {
                     onChange={props.inputNumber}
                 />
 
-                <button title="Digite o DDD e número de telefone com o 9 a mais.">?</button>
+                <button>?</button>
             </WrapperItems>
 
             <TextArea 
