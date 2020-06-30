@@ -2,8 +2,6 @@ import React from 'react';
 
 import {Container, WrapperItems, Input, TextArea, TextLink} from './styles';
 
-//<button title="Código do país, DDD e número de telefone com o 9 a mais.">?</button>
-
 const Form = (props) => {
     return(
         <Container>
@@ -14,7 +12,7 @@ const Form = (props) => {
                     onChange={props.inputNumber}
                 />
 
-                <button>?</button>
+                <button title="Digite o DDD e número de telefone com o 9 a mais.">?</button>
             </WrapperItems>
 
             <TextArea 
